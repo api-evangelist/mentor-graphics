@@ -1,8 +1,27 @@
 aid: mentor-graphics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mentor-graphics.png
 name: Mentor Graphics
-description: Mentor Graphics is a company surfaced as a portfolio company of battery-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Mentor Graphics was a leading electronic design automation (EDA) software vendor whose
+  tools span integrated-circuit design and verification, PCB and electronic-systems design, and
+  manufacturing analysis. Battery Ventures held a position in the company. In 2017 Mentor Graphics
+  was acquired by Siemens and its portfolio now ships as Siemens EDA (part of Siemens Digital
+  Industries Software), including Calibre for physical verification and DFM, the Questa functional
+  verification platform, and the Xpedition / PADS PCB design suites. The mentor.com domain now
+  redirects to the Siemens EDA site. Siemens EDA delivers desktop and cloud-hosted engineering
+  software and managed services; it does not publish a public developer REST API, OpenAPI
+  definition, or self-serve developer portal, so there is no public API surface to enrich for this
+  provider.
 url: https://raw.githubusercontent.com/api-evangelist/mentor-graphics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +31,27 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Electronic Design Automation
+- EDA
+- Semiconductors
+- PCB Design
+- Chip Verification
+- Engineering Software
+- Siemens
 apis: []
+common:
+- type: Website
+  url: https://www.siemens.com/en-us/company/electronic-design-automation/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
