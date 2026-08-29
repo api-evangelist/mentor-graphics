@@ -34,6 +34,9 @@ description: Mentor Graphics was a leading electronic design automation (EDA) so
   definition, or self-serve developer portal, so there is no public API surface to enrich for this
   provider.
 url: https://raw.githubusercontent.com/api-evangelist/mentor-graphics/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Siemens EDA delivers desktop and cloud-hosted engineering software and managed services; it does not publish a public developer REST API, OpenAPI definition, or self-serve developer portal, so there i"
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
