@@ -57,6 +57,11 @@ tags:
 - Siemens
 apis: []
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/siemens/
+  name: Siemens
+  x-relationship: acquired
+  x-evidence: "In 2017 Mentor Graphics was acquired by Siemens and its portfolio now ships as Siemens EDA (part of Siemens Digital Industries Software), including Calibre for physical verification and DFM, the Questa functional verification platform, and "
 - type: Website
   url: https://www.siemens.com/en-us/company/electronic-design-automation/
 maintainers:
