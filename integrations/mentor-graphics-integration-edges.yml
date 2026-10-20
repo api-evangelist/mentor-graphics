@@ -1,0 +1,16 @@
+generated: '2026-10-20'
+method: none
+source:
+- https://zapier.com/apps/mentor-graphics/integrations
+- https://n8n.io/integrations/mentor-graphics/
+- https://composio.dev/toolkits/mentor-graphics
+- https://monid.ai/tools/mentor-graphics
+checked:
+- https://composio.dev/toolkits/mentor-graphics
+- https://monid.ai/tools/mentor-graphics
+- https://n8n.io/integrations/mentor-graphics/
+- https://zapier.com/apps/mentor-graphics/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

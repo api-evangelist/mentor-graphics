@@ -1,0 +1,98 @@
+generated: '2026-10-20'
+method: probed
+generator: harvest-packages.py
+source: registry metadata endpoints (registry.npmjs.org, pypi.org, rubygems.org, api.nuget.org, packagist.org, crates.io) ; github.com/siemens
+ownership_rule: 'official: true only when the registry metadata (homepage, repository, author, URLs) names the provider''s domain (apis.io, microsoftonline.com,
+  security/mentor-graphics-domain-security.yml, security/mentor-graphics-vulnerability-disclosure.yml, siemens.com) or its accepted GitHub org
+  (siemens).'
+packages:
+- name: simatic-s7-webserver-api
+  registry: github
+  url: https://github.com/siemens/simatic-s7-webserver-api
+  language: C#
+  official: true
+  version: null
+  published: '2026-10-20'
+  source_repo: https://github.com/siemens/simatic-s7-webserver-api
+  evidence: repository in github.com/siemens, whose profile names the provider's domain
+- name: standard-bom-python
+  registry: github
+  url: https://github.com/siemens/standard-bom-python
+  language: Python
+  official: true
+  version: null
+  published: '2026-10-19'
+  source_repo: https://github.com/siemens/standard-bom-python
+  evidence: repository in github.com/siemens, whose profile names the provider's domain
+- name: vilocify-sdk-python
+  registry: github
+  url: https://github.com/siemens/vilocify-sdk-python
+  language: Python
+  official: true
+  version: null
+  published: '2026-10-15'
+  source_repo: https://github.com/siemens/vilocify-sdk-python
+  evidence: repository in github.com/siemens, whose profile names the provider's domain
+- name: gencmpclient
+  registry: github
+  url: https://github.com/siemens/gencmpclient
+  language: C
+  official: true
+  version: null
+  published: '2026-09-28'
+  source_repo: https://github.com/siemens/gencmpclient
+  evidence: repository in github.com/siemens, whose profile names the provider's domain
+- name: libsecutils
+  registry: github
+  url: https://github.com/siemens/libsecutils
+  language: C
+  official: true
+  version: null
+  published: '2026-09-18'
+  source_repo: https://github.com/siemens/libsecutils
+  evidence: repository in github.com/siemens, whose profile names the provider's domain
+- name: standard-bom-java
+  registry: github
+  url: https://github.com/siemens/standard-bom-java
+  language: Java
+  official: true
+  version: null
+  published: '2026-09-15'
+  source_repo: https://github.com/siemens/standard-bom-java
+  evidence: repository in github.com/siemens, whose profile names the provider's domain
+- name: libuta
+  registry: github
+  url: https://github.com/siemens/libuta
+  language: C
+  official: true
+  version: null
+  published: '2026-07-24'
+  source_repo: https://github.com/siemens/libuta
+  evidence: repository in github.com/siemens, whose profile names the provider's domain
+- name: typescript-simatic-s7-webserver-api
+  registry: github
+  url: https://github.com/siemens/typescript-simatic-s7-webserver-api
+  language: TypeScript
+  official: true
+  version: null
+  published: '2026-03-24'
+  source_repo: https://github.com/siemens/typescript-simatic-s7-webserver-api
+  evidence: repository in github.com/siemens, whose profile names the provider's domain
+- name: siapp-sdk
+  registry: github
+  url: https://github.com/siemens/siapp-sdk
+  language: C++
+  official: true
+  version: null
+  published: '2026-03-02'
+  source_repo: https://github.com/siemens/siapp-sdk
+  evidence: repository in github.com/siemens, whose profile names the provider's domain
+- name: opc-ua-pubsub-dotnet
+  registry: github
+  url: https://github.com/siemens/opc-ua-pubsub-dotnet
+  language: C#
+  official: true
+  version: null
+  published: '2025-02-06'
+  source_repo: https://github.com/siemens/opc-ua-pubsub-dotnet
+  evidence: repository in github.com/siemens, whose profile names the provider's domain
