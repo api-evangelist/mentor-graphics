@@ -64,6 +64,89 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Mentor Graphics is a company surfaced as a portfolio company of battery-ventures and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Mentor Graphics was a leading electronic design automation (EDA) software vendor whose tools span integrated-circuit design and verification, PCB and electronic-systems design, and manufacturing analysis. Battery Ventures held a position in the company. In 2017 Mentor Graphics was acquired by Siemens and its portfolio now ships as Siemens EDA (part of Siemens Digital Industries Software), including Calibre for physical verification and DFM, the Questa functional verification platform, and the Xpedition / PADS PCB design suites. The mentor.com domain now redirects to the Siemens EDA site. Siemens EDA delivers desktop and cloud-hosted engineering software and managed services; it does not publish a public developer REST API, OpenAPI definition, or self-serve developer portal, so there is no public API surface to enrich for this provider.
 
-Backed by: battery-ventures
+**Areas:** Company · Electronic Design Automation · EDA · Semiconductors · PCB Design · Chip Verification · Engineering Software · Siemens
+
+## Mentor Graphics on APIs.io
+
+Everything profiled for Mentor Graphics is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/mentor-graphics/](https://apis.io/providers/mentor-graphics/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Mentor Graphics Domain Security](https://apis.io/security/mentor-graphics/mentor-graphics-domain-security/)
+- [Mentor Graphics Vulnerability Disclosure](https://apis.io/security/mentor-graphics/mentor-graphics-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.siemens.com/en-us/company/electronic-design-automation/)
+- [Documentation](https://developer.internal.siemens.com/)
+- [Getting started](https://developer.siemens.com/building-x-openness/api/accounts-api/quickstart)
+- [Pricing](https://www.siemens.com/en-us/products/capital/offerings/capital-x-panel-designer/pricing/)
+- [Support](https://www.siemens.com/en-us/support/)
+- [Blog](https://blog.siemens.com/)
+- [Security](https://productcert.siemens.com/vulnerability-handling-and-disclosure-process/)
+- [Terms of service](https://www.siemens.com/en-us/terms-of-use/)
+- [Privacy policy](https://www.siemens.com/en-us/privacy-notice/)
+- [GitHub](https://github.com/siemens)
+
+## API Evangelist rating
+
+**Kin Score 24.0** — emerging · rubric 0.24.0 · scored 2026-10-20
+
+| Facet | Score |
+|---|---|
+| Discoverability | 50.0 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 45.2 |
+| Access clarity | 31.6 |
+
+**Agent readiness 27.3** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+
+**Regulatory alignment 25.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/mentor-graphics/](https://apis.io/providers/mentor-graphics/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Mentor Graphics: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/mentor-graphics/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
